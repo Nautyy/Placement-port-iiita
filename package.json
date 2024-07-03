@@ -13,7 +13,7 @@
     "data:destroy": "node backend/seeder -d",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Pulkit Gupta",
+  
   "author": "Ujjwal Narayan Pandram",
   "license": "ISC",
   "dependencies": {
